@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan("com.xworkz")
 @EnableWebMvc
 public class FormConfiguration {
-    FormConfiguration(){
+    FormConfiguration() {
         System.out.println("running FormConfiguration .............");
     }
 }

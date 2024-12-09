@@ -9,7 +9,7 @@ public class ScholarshipDTO {
     private String firstName;
     private String lastName;
     private String email;
-    private  Long phoneNo;
+    private Long phoneNo;
     private int otp;
-    private  String password;
+    private String password;
 }

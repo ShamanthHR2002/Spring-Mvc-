@@ -13,12 +13,12 @@ public class FormInit extends AbstractAnnotationConfigDispatcherServletInitializ
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] {FormConfiguration.class};
+        return new Class[]{FormConfiguration.class};
     }
 
     @Override
     protected String[] getServletMappings() {
-        return new String[] {"/"};
+        return new String[]{"/"};
     }
 
     @Override

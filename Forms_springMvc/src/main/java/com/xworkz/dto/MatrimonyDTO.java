@@ -9,11 +9,11 @@ public class MatrimonyDTO {
     private String firstName;
     private String lastName;
     private String email;
-    private  Long phoneNo;
+    private Long phoneNo;
     private String dob;
-    private  String gender;
-    private  double weight;
+    private String gender;
+    private double weight;
     private double height;
-    private  double salary ;
-    private  String address;
+    private double salary;
+    private String address;
 }

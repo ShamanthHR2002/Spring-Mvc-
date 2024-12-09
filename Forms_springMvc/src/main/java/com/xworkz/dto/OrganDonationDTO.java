@@ -8,12 +8,12 @@ import lombok.NoArgsConstructor;
 public class OrganDonationDTO {
     private String fullName;
     private long phoneNumber;
-    private  int age;
-    private  String permanentAddress;
-    private  String presentAddress;
-    private  String bloodGroup;
-    private  long aadhaarNo;
-    private  double height;
-    private  double weight;
-    private  String organ;
+    private int age;
+    private String permanentAddress;
+    private String presentAddress;
+    private String bloodGroup;
+    private long aadhaarNo;
+    private double height;
+    private double weight;
+    private String organ;
 }
