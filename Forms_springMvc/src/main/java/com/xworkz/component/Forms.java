@@ -18,12 +18,6 @@ public class Forms {
         return "scholarshipform.jsp";
     }
 
-    @RequestMapping("/job")
-    public String applyJob(JobDTO jobDTO) {
-        System.out.println("running applyJob");
-        System.out.println(jobDTO);
-        return "job.jsp";
-    }
 
     @RequestMapping("/organ")
     public String donateOrgan(OrganDonationDTO organDonationDTO) {
